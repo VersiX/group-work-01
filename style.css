@@ -4,6 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700&display=swap");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -4200,6 +4201,10 @@ html {
   .mx-xl-auto {
     margin-left: auto !important;
   }
+}
+
+* {
+  font-family: "Lato", Arial, sans-serif;
 }
 
 body {

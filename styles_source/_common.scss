@@ -1,4 +1,11 @@
 // (C) RootiCo
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:400,700&display=swap");
+$primary-font: "Lato", Arial, sans-serif;
+$secondary-font: "Montserrat", sans-serif;
+
+* {
+    font-family: $primary-font;
+}
 
 body {
     padding: 0;
