@@ -14,9 +14,44 @@ body {
 
 
 .button{
-
     
-    &--white{
+    font-family: $primary-font;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
 
+    width: 204px;
+    height: 55px;
+
+    &--blue{
+        background-color: rgb(54, 149, 255);
+        color: rgb(255, 255, 255);
     }
 }
+
+.Hire_Me_Button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2000px;
+    height: 4051px;
+    z-index: 93;
+  }
+  .hire_me {
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    position: absolute;
+    left: 966.938px;
+    top: 681px;
+    z-index: 92;
+  }
+  .Prostokąt_zaokrąglony_1 {
+    position: absolute;
+    left: 899px;
+    top: 669px;
+    z-index: 91;
+  }
+  
